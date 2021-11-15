@@ -1,0 +1,123 @@
+.StepTwo{
+width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+.Container{
+    max-width: 80%;
+    font-family: Proxima Nova,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+
+}
+.title{
+    line-height: 58px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom:30px ;
+}
+.title__text{
+    margin-bottom:30px ;
+    line-height: 48px;
+    color: #000000;
+}
+
+
+.StepOne__img{
+    max-width: 40%;
+}
+.button__amazon__flex img {
+    margin-left: 10px;
+}
+.button__amazon__flex{
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 36px;
+    align-items: center;
+}
+.provide_description{
+    max-height: 44px;
+    align-items: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 400px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+.button__3__yes{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: black;
+    min-width: 380px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+}
+.button__flex{
+    max-width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.description__text{
+
+    max-height: 44px;
+    align-items: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+.description__provide__text{
+    font-family: Proxima Nova,sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.description__text__mrgn{
+    margin-bottom: 20px;
+}
+.button_description{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: flex-start;
+}
+.button_description a{
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    color: rgba(0, 0, 0, 0.6);
+}

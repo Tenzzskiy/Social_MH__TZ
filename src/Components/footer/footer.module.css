@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+}
+
+.Container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.footer__text{
+
+    padding: 20px 0 15px 0;
+}

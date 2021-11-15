@@ -1,0 +1,137 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1180px;
+
+}
+.Step__body{
+    width: 100%;
+}
+.Step{
+
+    width: 100%;
+}
+.NavBar{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 112px 140px 112px 20px;
+    margin: 0 -5px;
+}
+.Navbar__border{
+    height: 76px;
+    width: 2px;
+    background-color: #DDDDDD;
+    position: relative;
+    z-index: 0;
+
+}
+.Navbar__border__active{
+    height: 76px;
+    width: 2px;
+    background-color: #2196F3;
+    position: relative;
+    z-index: 0;
+}
+.Navbar__item__1{
+    min-width: 36px;
+    min-height: 36px;
+    background: #2196F3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    border: 6px solid white;
+    outline: 1px solid #2196F3;
+    z-index: 1;
+}
+.Navbar__item__1__inactive{
+    min-width: 36px;
+    min-height: 36px;
+    background: #2196F3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    z-index: 1;
+}
+.Navbar__item__2__inactive{
+    min-width: 36px;
+    min-height: 36px;
+    background: #2196F3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    z-index: 1;
+}
+.Navbar__item__2__active{
+    min-width: 36px;
+    min-height: 36px;
+    background: #2196F3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    border: 6px solid white;
+    outline: 1px solid #2196F3;
+    z-index: 1;
+}
+.Navbar__item__3__active{
+    min-width: 36px;
+    min-height: 36px;
+    background: #2196F3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    border: 6px solid white;
+    outline: 1px solid #2196F3;
+    z-index: 1;
+}
+.Navbar__item__2{
+    min-width: 36px;
+    min-height: 36px;
+    background: #DDDDDD;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+}.Navbar__item__3{
+    min-width: 36px;
+    min-height: 36px;
+    background: #DDDDDD;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+}.Navbar__item__4{
+    min-width: 36px;
+    min-height: 36px;
+    background: #DDDDDD;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+}.Navbar__item__5{
+    min-width: 36px;
+    min-height: 36px;
+    background: #DDDDDD;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+}
+

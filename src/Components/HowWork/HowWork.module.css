@@ -1,0 +1,63 @@
+.How{
+    width: 100%;
+}
+.How__Container{
+    margin: auto auto 100px auto;
+    max-width: 1180px;
+
+}
+
+.How__title{
+    font-family: Proxima Nova,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.How__chain{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.How__chain__item{
+    min-width: 180px;
+    min-height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(94, 94, 94, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.How__chain__item img{
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.How__chain__item__flex{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.How__chain__item__description{
+    font-family: Proxima Nova,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+}
+.How__chain__item__description__1{
+    font-family: Proxima Nova,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0;
+
+}

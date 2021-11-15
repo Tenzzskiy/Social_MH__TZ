@@ -1,0 +1,95 @@
+.StepTwo{
+width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+.Container{
+max-width: 50%;
+    font-family: Proxima Nova,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+
+}
+.title{
+    line-height: 58px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom:30px ;
+}
+.title__text{
+    margin-bottom:20px ;
+    line-height: 48px;
+    color: #000000;
+}
+
+
+.StepOne__img{
+    max-width: 50%;
+}
+
+.button__3__yes{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: black;
+    min-width: 179px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-decoration: none;
+}
+.button__3__no{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.6);
+    min-width: 179px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-decoration: none;
+ border: 0;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+.button__flex{
+    max-width: 77%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.first__description{
+    margin-bottom: 20px;
+}
+
+.description__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 50px;
+}
