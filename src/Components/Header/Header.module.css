@@ -1,6 +1,6 @@
 .header{
     background: #EEEEEE;
-    width: 100%;
+    min-width: 100%;
 }
 .header__container{
     max-width: 1180px;
