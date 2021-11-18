@@ -6,24 +6,198 @@
     max-width: 1180px;
 
 }
+@media (max-width: 4000px) {
+    .How__chain__item{
+        min-width: 180px;
+        min-height: 180px;
+
+    }
+    .How__chain__item img{
+        max-width: 180px;
+        max-height: 180px;
+    }
+    .How__chain__item__description{
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+    .How__chain{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .How__title{
+
+        font-size: 48px;
+        line-height: 58px;
+
+    }
+    .How__chain__item__description__last{
+        font-size: 18px;
+        line-height: 22px;
+        font-family: Proxima Nova,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        color: #000000;
+        text-align: center;
+
+    }
+
+}
+@media (max-width: 1140px) {
+    .How__chain__item{
+        min-width: 105px;
+        min-height: 105px;
+
+    }
+    .How__chain__item img{
+        max-width: 46px;
+        max-height: 46px;
+    }
+    .How__chain{
+        margin: 0 40px;
+        justify-content: center;
+    }
+    .How__title{
+        font-size: 30px;
+        line-height: 37px;
+        margin: 0 40px 20px 40px;
+
+    }
+    .How__chain__item__description{
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+    .How__chain__item__description__last{
+        font-size: 14px;
+        line-height: 17px;
+
+
+    }
+    .How__Container{
+        margin: auto auto 76px auto;
+
+
+    }
+    .How__chain__item__description__2{
+        font-family: Proxima Nova,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        color: #000000;
+        text-align: center;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .How__title{
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+
+}
+@media (max-width: 800px) {
+    .How__chain__item__description{
+        font-size: 13px;
+        line-height: 16px;
+
+    }
+    .How__chain__item__description__2{
+        font-size: 13px;
+        line-height: 16px;
+
+    }
+    .How__chain__item__description__last{
+        font-size: 13px;
+        line-height: 16px;
+        max-width: 77px;
+    }
+}
+@media (max-width: 665px){
+    .next__2{
+    display: none;
+        max-width: 14px;
+        max-height: 10px;
+    }
+    .next__5 img{
+    display: none;
+        max-width: 14px;
+        max-height: 10px;
+    }
+    .first__row{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 300px;
+    }
+    .second__row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 300px;
+    }
+    .third__row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .How__chain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .next img{
+        max-width: 14px;
+        max-height: 10px;
+    }
+
+
+}
+.first__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.second__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.third__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .How__title{
     font-family: Proxima Nova,sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 58px;
+
     color: #000000;
     margin-bottom: 20px;
 }
-.How__chain{
-display: flex;
-    align-items: center;
-    justify-content: space-between;
+.How__chain__item__description__2{
+    font-family: Proxima Nova,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+
 }
 .How__chain__item{
-    min-width: 180px;
-    min-height: 180px;
+
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(94, 94, 94, 0.1);
     display: flex;
@@ -32,8 +206,10 @@ display: flex;
     margin-bottom: 10px;
 }
 .How__chain__item img{
-    max-width: 180px;
-    max-height: 180px;
+
+}
+.next{
+    margin: 0 14px;
 }
 
 .How__chain__item__flex{
@@ -42,14 +218,19 @@ display: flex;
     justify-content: center;
     align-items: center;
 }
+.How__chain__item__flex__2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
 .How__chain__item__description{
     font-family: Proxima Nova,sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
     color: #000000;
-
+    text-align: center;
 }
 .How__chain__item__description__1{
     font-family: Proxima Nova,sans-serif;
@@ -60,4 +241,10 @@ display: flex;
     color: #000000;
     opacity: 0;
 
+}
+.next__2{
+margin: 0 7px;
+}
+.next__5{
+    margin: 0 7px;
 }

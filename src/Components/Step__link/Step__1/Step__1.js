@@ -34,7 +34,7 @@ const  StepOne = (props) => {
                 </div>
 
 
-                <Button1 text={'Agree and continue'} road= '/StepTwo' ChangeStepNumberOnTwo={props.ChangeStepNumberOnTwo} />
+                <Button1 text={'Agree and continue'} road= '/StepTwo'  />
 
 
             </div>
@@ -51,7 +51,7 @@ export default StepOne;
 const Button1 = (props) =>{
     return(
         <>
-            <NavLink to={props.road} className={style.button__1} onClick={props.ChangeStepNumberOnTwo}> {props.text}  </NavLink>
+            <NavLink to={props.road} className={style.button__1} > {props.text}  </NavLink>
         </>
     )
 }

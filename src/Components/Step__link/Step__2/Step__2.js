@@ -19,7 +19,7 @@ const  StepTwo = (props) => {
                     this offer but you will receive $10 Amazon Gift Card for each of your friends
                     that participates in this giveaway! </div>
 
-                <Button2 text={'continue'} road={'/StepThree'} ChangeStepNumberOnThree={props.ChangeStepNumberOnThree}/>
+                <Button2 text={'continue'} road={'/StepThree'} />
             </div>
 
             <div className={style.StepOne__img}>
@@ -34,7 +34,7 @@ export default StepTwo;
 const Button2 = (props) =>{
     return(
         <>
-            <NavLink to={props.road} className={style.button__2} onClick={props.ChangeStepNumberOnThree}> {props.text}  </NavLink>
+            <NavLink to={props.road} className={style.button__2} > {props.text}  </NavLink>
         </>
     )
 }

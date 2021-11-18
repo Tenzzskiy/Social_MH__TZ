@@ -148,7 +148,7 @@ const StepShop = () =>{
                     </div>
 
                 </div>
-                <span className={readMoreStyle.readMoreStyle} onClick={onToggleClick}  > <div className={style.show_readMore}> Read more... </div> </span>
+                <span className={readMoreStyle.readMoreStyle}   > <div className={style.show_readMore} onClick={onToggleClick}> Read more... </div> </span>
                 <div className={showInfoStyle}><div className={style.margin}>
                 <div className={style.overview__header}> What It Is</div>
                 <div className={style.overview__text__what}>Sunflower Seed Cake,

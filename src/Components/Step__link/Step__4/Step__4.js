@@ -44,7 +44,7 @@ const  StepFour = (props) => {
 
 
                 <div className={style.button__flex}>
-                <Button4 text={'Get Offer'} road={'/StepFive'} styles={style.button__3__yes} ChangeStepNumberOnFive={props.ChangeStepNumberOnFive}/>
+                <Button4 text={'Get Offer'} road={'/StepFive'} styles={style.button__3__yes} />
 
                     <div className={style.button_description}>
                         <a href="https://www.amazon.com/"><b> I don't like offer terms</b></a>
@@ -67,7 +67,7 @@ export default StepFour;
 const Button4 = (props) =>{
     return(
         <>
-            <NavLink to={props.road} className={props.styles} onClick={props.ChangeStepNumberOnFive}> {props.text}  </NavLink>
+            <NavLink to={props.road} className={props.styles} > {props.text}  </NavLink>
         </>
     )
 }

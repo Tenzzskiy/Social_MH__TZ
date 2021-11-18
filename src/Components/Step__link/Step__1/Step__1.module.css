@@ -1,9 +1,10 @@
+
 .StepOne{
-width: 100%;
+    max-width: 1180px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: center;
+
 
 }
 .Container{
@@ -14,14 +15,14 @@ max-width: 50%;
     font-size: 48px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
     text-align: left;
 
 }
 .title{
     line-height: 58px;
     color: rgba(0, 0, 0, 0.6);
-    margin-bottom:40px ;
+
 }
 .title__text{
     margin-bottom:20px ;
@@ -46,8 +47,8 @@ max-width: 50%;
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: black;
-    width: 380px;
-    height: 60px;
+    min-width: 380px;
+    min-height: 60px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -56,27 +57,131 @@ max-width: 50%;
     text-decoration: none;
 
 }
+@media (max-width: 4000px){
+    .description__text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .second__description{
+
+        margin-bottom: 40px;
+    }
+    .description__text{
+        margin-bottom: 20px;
+    }
+    .title{
+
+        margin:128px 0 40px 0 ;
+    }
+    .title__text{
+        margin-bottom:20px ;
+
+    }
+    .first__description{
+
+        margin-left: 20px;
+    }
+    .second__description{
+        margin-left: 20px;
+
+
+    }
+    .StepOne__img{
+        max-width: 477px;
+        max-height: 501px;
+
+    }
+}
+@media (max-width: 1140px) {
+    .button__1{
+        min-width: 280px;
+        max-width: 281px;
+        min-height: 40px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 37px;
+        margin:50px 0 40px 0 ;
+    }
+    .title__text{
+        font-size: 30px;
+        line-height: 30px;
+        max-width: 280px;
+    }
+    .description__text{
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 334px;
+        margin-bottom: 10px;
+    }
+    .StepOne__img img{
+        max-width: 243px;
+        max-height: 255px;
+    }
+    .number{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .description{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .second__description{
+        margin-bottom: 10px;
+    }
+    .title{
+
+        margin-bottom:10px ;
+    }
+    .title__text{
+        margin-bottom:10px ;
+
+    }
+    .first__description{
+
+        margin-left: 10px;
+    }
+    .second__description{
+        margin-left: 10px;
+
+    }
+    .StepOne__img{
+        max-width: 243px;
+        max-height: 255px;
+
+    }
+}
+@media (max-width: 665px) {
+    .StepOne__img img{
+        display: none;
+    }
+}
 .StepOne__img{
-    max-width: 50%;
+    margin: 65px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .description__text{
     font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
+
     color: rgba(0, 0, 0, 0.6);
-    margin-bottom: 20px;
+
 }
 .first__description{
-min-width: 340px;
+    max-width: 340px;
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+
 }
 .second__description{
-    margin-left: 20px;
+
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
+
 }
 .number{
     margin-right: 10px;

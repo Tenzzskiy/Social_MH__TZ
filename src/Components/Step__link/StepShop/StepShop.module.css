@@ -310,6 +310,7 @@ max-width: 650px;
     line-height: 22px;
     color: rgba(0, 0, 0, 0.6);
     margin-bottom: 50px;
+    max-width: 110px;
 }
 .hide_readMore{
     display: none;

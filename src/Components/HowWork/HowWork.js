@@ -15,7 +15,7 @@ const HowWork =() => {
       How does it work?
     </div>
     <div className={style.How__chain}>
-
+          <div className={style.first__row}>
         <div className={style.How__chain__item__flex}>
 
           <div className={style.How__chain__item}>
@@ -29,19 +29,21 @@ const HowWork =() => {
 
 
 
-      <div ><img src={next} alt=""/></div>
+      <div className={style.next}> <img src={next} alt=""/> </div>
 
-        <div className={style.How__chain__item__flex}>
+        <div className={style.How__chain__item__flex__2}>
 
           <div className={style.How__chain__item}>
             <img src={second} alt=""/>
           </div>
 
-          <div className={style.How__chain__item__description}>Choose product </div>
+          <div className={style.How__chain__item__description__2}>Choose product </div>
 
         </div>
+          </div>
 
-      <div > <img src={next} alt=""/>  </div>
+      <div className={style.next__2}> <img src={next} alt=""/>  </div>
+      <div className={style.second__row}>
     <div className={style.How__chain__item__flex}>
 
       <div className={style.How__chain__item}>
@@ -49,7 +51,7 @@ const HowWork =() => {
       </div>
       <div className={style.How__chain__item__description}>Buy product </div>
     </div>
-      <div > <img src={next} alt=""/> </div>
+      <div className={style.next}> <img src={next} alt=""/> </div>
     <div className={style.How__chain__item__flex}>
 
       <div className={style.How__chain__item}>
@@ -57,14 +59,17 @@ const HowWork =() => {
       </div>
       <div className={style.How__chain__item__description}>Test and share review </div>
     </div>
-      <div ><img src={next} alt=""/>  </div>
+      </div>
+      <div className={style.next__5}><img src={next} alt=""/>  </div>
+      <div className={style.third__row}>
      <div className={style.How__chain__item__flex}>
 
        <div className={style.How__chain__item}>
          <img src={fifth} alt=""/>
        </div>
-        <div className={style.How__chain__item__description}>Get 100% money back </div>
+        <div className={style.How__chain__item__description__last}>Get 100% money back </div>
      </div>
+    </div>
     </div>
 
     </div>

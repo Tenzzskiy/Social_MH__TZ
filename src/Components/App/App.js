@@ -13,7 +13,7 @@ function App() {
         <>
             <BrowserRouter >
             <Header/>
-            <StepsNavBar stepNumber={1} road='/'/>
+            <StepsNavBar />
             <HowWork />
             <Contacts />
             <Footer />

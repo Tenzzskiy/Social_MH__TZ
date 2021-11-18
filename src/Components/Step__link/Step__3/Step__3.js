@@ -25,7 +25,7 @@ const  StepThree = (props) => {
 
                 </div>
                 <div className={style.button__flex}>
-                <Button3 text={'Yes, i have'} road={'/StepFour'} styles={style.button__3__yes} ChangeStepNumberOnFour={props.ChangeStepNumberOnFour}/>
+                <Button3 text={'Yes, i have'} road={'/StepFour'} styles={style.button__3__yes} />
                     <a href="https://www.amazon.com/">
                     <button className={style.button__3__no}>no, i don’t have </button>
                     </a>
@@ -45,7 +45,7 @@ export default StepThree;
 const Button3 = (props) =>{
     return(
         <>
-            <NavLink to={props.road} className={props.styles} onClick={props.ChangeStepNumberOnFour}> {props.text}  </NavLink>
+            <NavLink to={props.road} className={props.styles} > {props.text}  </NavLink>
         </>
     )
 }

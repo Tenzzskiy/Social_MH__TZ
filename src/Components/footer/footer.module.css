@@ -7,7 +7,17 @@
     margin: 0 auto;
 }
 
-.footer__text{
 
-    padding: 20px 0 15px 0;
+@media (max-width: 4000px){
+    .footer__text{
+
+        padding: 20px 0 15px 0;
+    }
+}
+@media (max-width: 1140px){
+    .footer__text{
+        font-size: 14px;
+        line-height: 17px;
+        padding: 20px 0 15px 40px;
+    }
 }
