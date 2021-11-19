@@ -8,7 +8,7 @@
 
 }
 .Container{
-max-width: 50%;
+    max-width: 50%;
     font-family: Proxima Nova,sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -47,7 +47,7 @@ max-width: 50%;
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: black;
-    min-width: 380px;
+    width: 380px;
     min-height: 60px;
     border-radius: 5px;
     display: flex;
@@ -57,7 +57,7 @@ max-width: 50%;
     text-decoration: none;
 
 }
-@media (max-width: 4000px){
+@media (max-width: 9999px){
     .description__text{
         font-size: 18px;
         line-height: 22px;
@@ -94,7 +94,7 @@ max-width: 50%;
 }
 @media (max-width: 1140px) {
     .button__1{
-        min-width: 280px;
+        width: 280px;
         max-width: 281px;
         min-height: 40px;
         font-weight: bold;
@@ -158,6 +158,47 @@ max-width: 50%;
     .StepOne__img img{
         display: none;
     }
+    .Container{
+        max-width: 100%;
+
+
+    }
+    .title{
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 15px 20px;
+    }
+    .title__text{
+        margin: 0 0 10px 20px ;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .first__description{
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 30px;
+    }
+    .second__description{
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 30px;
+
+    }.description__text{
+             font-size: 12px;
+             line-height: 15px;
+         max-width: 280px;
+         margin-bottom: 10px;
+        margin-left: 20px;
+     }
+    .button__1{
+        width: 280px;
+        max-width: 281px;
+        height: 40px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+
 }
 .StepOne__img{
     margin: 65px 0 0 0;

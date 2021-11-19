@@ -14,6 +14,7 @@ export const StepsNavBar = () => {
     return (
         <div className={style.Step__body}>
             <div className={style.Container}>
+
                 <Route exact path='/' render={() => <Navbar
                     first={style.Navbar__item__1}
                     second={style.Navbar__item__2}
@@ -69,6 +70,7 @@ export const StepsNavBar = () => {
                     border4={style.Navbar__border__active}
                 />}/>
 
+
                 <Route exact path='/' render={() => <StepOne/>}/>
                 <Route exact path='/StepTwo' render={() => <StepTwo/>}/>
                 <Route exact path='/StepThree' render={() => <StepThree/>}/>
@@ -89,16 +91,18 @@ export const StepsNavBar = () => {
 const Navbar = (props) => {
 
     return (
-        <div className={style.NavBar}>
-            <div className={props.first}> 1</div>
-            <div className={props.border1}> </div>
-            <div className={props.second}> 2</div>
-            <div className={props.border2}> </div>
-            <div className={props.third}> 3</div>
-            <div className={props.border3}> </div>
-            <div className={props.fourth}> 4</div>
-            <div className={props.border4}> </div>
-            <div className={props.fifth}> 5</div>
+        <div className={style.NavBar__position}>
+            <div className={style.NavBar}>
+                <div className={props.first}> 1</div>
+                <div className={props.border1}> </div>
+                <div className={props.second}> 2</div>
+                <div className={props.border2}> </div>
+                <div className={props.third}> 3</div>
+                <div className={props.border3}> </div>
+                <div className={props.fourth}> 4</div>
+                <div className={props.border4}> </div>
+                <div className={props.fifth}> 5</div>
+            </div>
         </div>
     )
 }

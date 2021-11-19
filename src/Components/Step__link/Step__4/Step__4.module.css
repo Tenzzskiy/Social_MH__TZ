@@ -1,104 +1,225 @@
-.StepTwo{
-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+@media (max-width: 99999px){
+    .StepTwo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .first__description img{
+        width: 18px;
+        height: 18px;
+    }
+    .Container{
+
+        font-family: Proxima Nova,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        display: flex;
+        flex-direction: column;
+
+        text-align: left;
+
+    }
+    .title{
+        line-height: 58px;
+        color: rgba(0, 0, 0, 0.6);
+        margin-bottom:30px ;
+        margin-top:23px ;
+    }
+    .title__text{
+        margin-bottom:20px ;
+        line-height: 48px;
+        color: #000000;
+    }
+
+
+    .StepOne__img{
+        max-width: 50%;
+    }
+
+    .button__3__yes{
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: black;
+        width: 380px;
+        height: 60px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        text-decoration: none;
+        margin-bottom: 20px;
+
+    }
+    a{
+        outline: none;
+        text-decoration: none;
+    }
+    .button__flex{
+        max-width: 77%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .first__description{
+        margin-right: 13px;
+        min-width: 28px;
+        min-height: 28px;
+        border-radius: 50%;
+        background: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .description__text{
+        display: flex;
+        flex-direction: row;
+        max-height: 44px;
+        align-items: center;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.6);
+        margin-bottom: 20px;
+    }
+    .description__text__mrgn{
+        margin-bottom: 20px;
+    }
+    .button_description{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    .button_description a{
+        text-decoration: none;
+        outline: none;
+        border: 0;
+        color: rgba(0, 0, 0, 0.6);
+    }
 
 }
-.Container{
-    max-width: 50%;
-    font-family: Proxima Nova,sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 46px;
-    display: flex;
-    flex-direction: column;
 
-    text-align: left;
+@media (max-width: 1140px) {
+    .first__description img{
+        width: 13px;
+        height: 13px;
+    }
+    .second_description{
 
-}
-.title{
-    line-height: 58px;
-    color: rgba(0, 0, 0, 0.6);
-    margin-bottom:30px ;
-}
-.title__text{
-    margin-bottom:20px ;
-    line-height: 48px;
-    color: #000000;
-}
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+    .StepTwo{
+        justify-content: flex-start;
+
+    }
+    .Container{
+    width: 365px;
+    margin-bottom: 35px;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 37px;
 
 
-.StepOne__img{
-    max-width: 50%;
+
+        margin-bottom:10px ;
+    }
+    .title__text{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+
+    .StepOne__img{
+        width: 243px;
+        height: 340px;
+
+    }.StepOne__img img{
+         width: 243px;
+         height: 255px;
+
+     }
+
+    .button__3__yes{
+        width: 280px;
+        height: 40px;
+
+    }
+
+
+    .first__description{
+        font-size: 14px;
+        line-height: 17px;
+        min-width: 20px;
+        min-height: 20px;
+
+    }
+
+    .description__text{
+        margin-bottom: 10px;
+    }
+
+    .description__text__mrgn:last-child{
+        margin: 0;
+    }
+    .button_description{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .button_description a{
+
+    }
 }
 
-.button__3__yes{
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: black;
-    min-width: 380px;
-    height: 60px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
+@media (max-width: 660px) {
+    .StepOne__img{
+        display: none;
+    }
+    .Container{
+        margin: 0 auto 30px auto;
+        width: 280px;
+    }
+    .button__3__yes{
+        width: 280px;
+        height: 40px;
 
-a{
-    outline: none;
-    text-decoration: none;
-}
-.button__flex{
-    max-width: 77%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.first__description{
-    margin-right: 13px;
-    min-width: 28px;
-    min-height: 28px;
-    border-radius: 50%;
-    background: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.description__text{
-    display: flex;
-    flex-direction: row;
-    max-height: 44px;
-    align-items: center;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 20px;
-}
-.description__text__mrgn{
-    margin-bottom: 20px;
-}
-.button_description{
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 0.6);
-}
-.button_description a{
-    text-decoration: none;
-    outline: none;
-    border: 0;
-    color: rgba(0, 0, 0, 0.6);
+    }
+    .first__description{
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 16px;
+    }
+    .second_description{
+        font-size: 12px;
+        line-height: 15px;
+        width: 231px;
+    }
+    .button__flex{
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .title__text{
+        font-size: 20px;
+        line-height: 20px;
+    }
 }

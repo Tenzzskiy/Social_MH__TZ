@@ -88,7 +88,7 @@
         font-size: 12px;
         line-height: 15px;
         max-width: 281px;
-
+        text-align: center;
     }
     .header__container{
         flex-direction: column;
@@ -100,7 +100,7 @@
     .header__img img{
         max-width: 240px;
         max-height: 90px;
-        top: -7px;
+        top: -5px;
     } .header__container{
           padding: 10px 20px 0 20px;
 

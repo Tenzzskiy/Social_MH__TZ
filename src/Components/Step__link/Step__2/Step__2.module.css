@@ -1,61 +1,178 @@
 .StepTwo{
 width: 100%;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    align-items: center;
 
 }
-.Container{
-max-width: 50%;
-    font-family: Proxima Nova,sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: left;
-    margin-right: 15px;
-}
-.title{
-    line-height: 58px;
-    color: rgba(0, 0, 0, 0.6);
-    margin-bottom:30px ;
-}
-.title__text{
-    margin-bottom:20px ;
-    line-height: 48px;
-    color: #000000;
-}
+@media (max-width: 99999px){
+    .adaptive__img{
+        display: none;
+        width: 243px;
+        height: 255px;
+    }
+    .Container{
+
+        font-family: Proxima Nova,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 179px;
+        text-align: left;
+        margin-right: 15px;
+
+    }
+    .title{
+        line-height: 58px;
+        color: rgba(0, 0, 0, 0.6);
+        margin-bottom:30px ;
+
+    }
+    .title__text{
+        margin-bottom:20px ;
+        line-height: 48px;
+        color: #000000;
+    }
 
 
-.StepOne__img{
-    max-width: 50%;
+    .StepOne__img{
+        max-width: 50%;
+        margin-top: 134px;
+    }
+
+    .button__2{
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: black;
+        width: 380px;
+        height: 60px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        text-decoration: none;
+
+    }
+    .description__text{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.6);
+        margin-bottom: 50px;
+        max-width: 480px;
+    }
+
 }
 
-.button__2{
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: black;
-    width: 380px;
-    height: 60px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-    text-decoration: none;
+@media (max-width: 1140px){
+    .Container{
 
+
+        margin-top: 74px;
+
+    }
+    .StepTwo{
+        justify-content: flex-start;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 10px;
+
+    }
+    .title__text{
+        font-size: 30px;
+        line-height: 48px;
+        margin-bottom: 10px;
+    }
+
+
+    .StepOne__img{
+        max-width: 50%;
+        margin-left: 10px;
+        margin-top: 83px;
+        max-height: 225px;
+
+    }.StepOne__img img{
+             width: 243px;
+             height: 225px;
+     }
+
+
+    .button__2{
+        font-size: 14px;
+        line-height: 17px;
+        width: 280px;
+        height: 40px;
+
+
+    }
+    .description__text{
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 20px;
+        max-width: 334px;
+    }
 }
-.description__text{
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 0.6);
-    margin-bottom: 50px;
-    max-width: 480px;
+@media (max-width: 660px){
+    .adaptive__img{
+
+        display: block;
+        margin: 0 40px 70px 15px;
+    }
+    .adaptive__img img{
+         width: 243px;
+         height: 255px;
+
+     }
+
+    .Container{
+    margin:0 auto 30px auto ;
+   width: 280px;
+    }
+    .StepTwo{
+        justify-content: center;
+
+        flex-direction: column;
+    }
+    .title{
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+    .title__text{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+
+    .StepOne__img{
+        display: none;
+
+    }.StepOne__img img{
+         width: 243px;
+         height: 225px;
+     }
+
+
+    .button__2{
+        font-size: 14px;
+        line-height: 17px;
+        width: 280px;
+        height: 40px;
+
+
+    }
+    .description__text{
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 280px ;
+        margin-bottom: 10px;
+    }
 }
+

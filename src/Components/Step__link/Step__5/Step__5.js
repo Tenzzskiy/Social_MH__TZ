@@ -11,7 +11,7 @@ const  StepFive = () => {
         <div className={style.StepTwo}>
             <div className={style.Container}>
                 <div className={style.title}>Step 5  </div>
-                <div className={style.title__text}> Buy and Provide order ID to our Manager </div>
+                <div className={style.title__text}> Buy and Provide order <br /> ID to our Manager </div>
 
 
                 <div className={style.description__text__mrgn}>
@@ -25,13 +25,13 @@ const  StepFive = () => {
 
                 <div className={style.button_description}>
                     <a href="https://www.amazon.com/" className={style.button__amazon__flex}>
-                        <button className={style.button__3__yes}>Go to amazon <img src={amazon} alt=""/></button>
+                        <button className={style.button__3__ye}>Go to amazon <img src={amazon} alt=""/></button>
                     </a>
                 </div>
                 <div className={style.provide_description}> Click on the button below and <b>Provide Order ID to our Manager</b> in FB Messenger</div>
                 <div className={style.description__provide__text}><i> (If you have any questions, you can ask them to our Manager)</i></div>
                 <div className={style.button__flex}>
-                <Button4 text={'provide order id'} road={'/StepShop'} styles={style.button__3__yes}/>
+                <Button4 text={'provide order id'} road={'/StepShop'} styles={style.button__3__ye}/>
 
 
 

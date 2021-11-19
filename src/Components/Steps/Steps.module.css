@@ -1,84 +1,158 @@
 .Container{
     display: flex;
     flex-direction: row;
-
-    justify-content: center;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     max-width: 1180px;
 
 }
-@media  (max-width: 4000px){
-    .NavBar{
-        padding: 107px 120px 112px 40px;
+.NavBar__Container{
 
+}
+@media  (max-width: 99999px){
+    .Navbar__item__1{
+
+        background: #2196F3;
+        color: white;
+        display: flex;
+
+        justify-content: center;
+        border-radius:50% ;
+        border: 6px solid white;
+        outline: 1px solid #2196F3;
+        z-index: 1;
+    }
+    .NavBar{
+        display: flex;
+        justify-content: center;
+        padding: 107px 120px 112px 40px;
+        margin: 0 -5px;
+        flex-direction: column;
+        max-width: 250px;
     }
     .Navbar__item__1{
-        min-width: 36px;
-        min-height: 36px;
-
+        width: 36px;
+        height: 36px;
+        align-items: center;
     }
     .Navbar__item__2{
-        min-width: 36px;
-        min-height: 36px;
+        width: 36px;
+        height: 36px; align-items: center;
     }
     .Navbar__item__3{
-        min-width: 36px;
-        min-height: 36px;
+        width: 36px;
+        height: 36px; align-items: center;
 
     }
     .Navbar__item__4{
-        min-width:36px;
-        min-height: 36px;
+        width:36px;
+        height: 36px; align-items: center;
 
     }
     .Navbar__item__5{
-        min-width: 36px;
-        min-height: 36px;
+        width: 36px;
+        height: 36px; align-items: center;
 
     }
     .Navbar__border{
         height: 76px;
     }
     .Navbar__item__active{
-        min-width: 36px;
-        min-height: 36px;
+        width: 36px;
+        height: 36px; align-items: center;
     }
     .Navbar__item__inactive{
-        min-width: 36px;
-        min-height: 36px;
+        width: 36px;
+        height: 36px; align-items: center;
+    }
+    .NavBar__Container{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .Navbar__item__inactive{
+
+        background: #2196F3;
+        color: white;
+        display: flex;
+
+        justify-content: center;
+        border-radius:50% ;
+        z-index: 1;
+    }
+    .Navbar__item__active{
+
+        background: #2196F3;
+        color: white;
+        display: flex;
+
+        justify-content: center;
+        border-radius:50% ;
+        border: 6px solid white;
+        outline: 1px solid #2196F3;
+        z-index: 1;
+    }
+    .Navbar__border__active{
+        height: 76px;
+        width: 2px;
+        background-color: #2196F3;
+        position: relative;
+        z-index: 0;
     }
 }
 @media  (max-width: 1140px){
-    .NavBar{
-        max-width: 250px;
-        display: flex;
-        flex-direction: column;
+    .Navbar__border__active{
+        height: 53px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .Navbar__item__inactive{
+        font-size: 14px;
+        line-height: 17px;
+        width: 22px;
+        height: 22px;
         align-items: center;
-        padding: 40px 43px 112px 40px;
+    }
+    .Navbar__item__active{
+        font-size: 14px;
+        line-height: 17px;
+        width: 22px;
+        height: 22px;
+        align-items: center;
+        border: 4px solid white;
+
+    }
+    .NavBar{
+        flex-direction: column;
+        padding: 40px 43px 40px 60px;
 
     }
     .Navbar__item__1{
-        min-width: 22px;
-        min-height: 22px;
-
+        width: 22px;
+        height: 22px; align-items: center;
+        font-size: 14px;
+        line-height: 17px;
+        border: 4px solid white;
     }
     .Navbar__item__2{
-        min-width: 22px;
-        min-height: 22px;
+        width: 22px;
+        height: 22px; align-items: center;font-size: 14px;
+        line-height: 17px;
     }
     .Navbar__item__3{
-        min-width: 22px;
-        min-height: 22px;
+        width: 22px;
+        height: 22px; align-items: center;font-size: 14px;
+        line-height: 17px;
 
     }
     .Navbar__item__4{
-        min-width: 22px;
-        min-height: 22px;
+        width: 22px;
+        height: 22px; align-items: center;font-size: 14px;
+        line-height: 17px;
 
     }
     .Navbar__item__5{
-        min-width: 22px;
-        min-height: 22px;
+        width: 22px;
+        height: 22px; align-items: center;font-size: 14px;
+        line-height: 17px;
 
     }
     .Navbar__border{
@@ -86,8 +160,66 @@
 
 
     }
+    .NavBar__Container{
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
+@media(max-width: 660px) {
+    .Navbar__border__active{
+        height: 50px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .Navbar__item__active{
 
+        border: 3px solid white;
+
+    }
+    .NavBar__Container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: normal;
+
+    }
+    .Container{
+        width: 100%;
+        flex-direction: column;
+
+
+    }
+    .Navbar__border{
+        height: 50px;
+
+
+    }
+    .NavBar{
+        max-width: 280px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        margin:10px auto
+    }
+    .NavBar__position{
+
+    }
+    .Navbar__border__active{
+        transform: rotate(90deg);
+    }
+    .Navbar__border{
+
+        transform: rotate(90deg);
+
+    }
+    .Navbar__item__1{
+
+        border: 3px solid white;
+    }
+
+
+}
 
 .Step__body{
     width: 100%;
@@ -97,11 +229,11 @@
     width: 100%;
 }
 .NavBar{
-    max-width: 250px;
+
     display: flex;
-    flex-direction: column;
+
     align-items: center;
-    margin: 0 -5px;
+
 }
 .Navbar__border{
 
@@ -111,55 +243,17 @@
     z-index: 0;
 
 }
-.Navbar__border__active{
-    height: 76px;
-    width: 2px;
-    background-color: #2196F3;
-    position: relative;
-    z-index: 0;
-}
-.Navbar__item__1{
 
-    background: #2196F3;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius:50% ;
-    border: 6px solid white;
-    outline: 1px solid #2196F3;
-    z-index: 1;
-}
 
-.Navbar__item__inactive{
 
-    background: #2196F3;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius:50% ;
-    z-index: 1;
-}
-.Navbar__item__active{
 
-    background: #2196F3;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius:50% ;
-    border: 6px solid white;
-    outline: 1px solid #2196F3;
-    z-index: 1;
-}
 
 .Navbar__item__2{
 
     background: #DDDDDD;
     color: white;
     display: flex;
-    align-items: center;
+
     justify-content: center;
     border-radius:50% ;
 }.Navbar__item__3{
@@ -167,7 +261,7 @@
     background: #DDDDDD;
     color: white;
     display: flex;
-    align-items: center;
+
     justify-content: center;
     border-radius:50% ;
 }.Navbar__item__4{
@@ -175,7 +269,7 @@
     background: #DDDDDD;
     color: white;
     display: flex;
-    align-items: center;
+
     justify-content: center;
     border-radius:50% ;
 }.Navbar__item__5{
@@ -183,7 +277,7 @@
     background: #DDDDDD;
     color: white;
     display: flex;
-    align-items: center;
+
     justify-content: center;
     border-radius:50% ;
 }

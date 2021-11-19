@@ -10,7 +10,7 @@
 }
 .contacts__flex{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     text-align: left;
     font-family: Proxima Nova,sans-serif;
@@ -18,14 +18,15 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+    max-width: 100%;
 
 
 }
-@media (max-width: 4000px){
+@media (max-width: 99999px){
     .contacts__flex{
         padding: 30px 200px 30px 0;
     }
-    .first__row{
+    .first__column{
 
         font-size: 18px;
         line-height: 22px;
@@ -41,39 +42,71 @@
     .contacts__flex{
         padding: 30px 40px 30px 40px;
     }
-    .first__row{
+    .first__column{
         font-size: 14px;
         line-height: 17px;
     }
-    .second__row{
+    .second__column{
         font-size: 14px;
         line-height: 17px;
     }
-    .third__row{
+    .third__column{
         font-size: 14px;
         line-height: 17px;
     }
 }
-.first__row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-weight: bold;
+@media (max-width: 660px){
+    .contacts__flex{
+        flex-direction: column;
+    }
+    .container{
 
+        max-height: 214px;
+        margin: 0 auto;
+    }
+    .contacts{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contacts__flex{
+        padding: 30px 40px 30px 80px;
+    }
+    .adaptive__div{
+        margin-bottom: 18px;
+    }
+}
+.first__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.second__column{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.third__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+}
+.item{
+    width: 160px;
+    margin-bottom: 10px;
+}
+.item__1{
+    font-weight: bold;
     color: #000000;
     margin-bottom: 10px;
 }
-.second__row{
+.adaptive__div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 10px;
-}
-.third__row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.item{
-    min-width: 160px;
+    width: 60%;
 }

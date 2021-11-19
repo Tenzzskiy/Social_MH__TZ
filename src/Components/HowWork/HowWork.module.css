@@ -6,7 +6,7 @@
     max-width: 1180px;
 
 }
-@media (max-width: 4000px) {
+@media (max-width: 99999px) {
     .How__chain__item{
         min-width: 180px;
         min-height: 180px;
@@ -98,6 +98,11 @@
 
 }
 @media (max-width: 800px) {
+    .How__chain__item__description__1{
+        width: 100px;
+        height: 16px;
+
+    }
     .How__chain__item__description{
         font-size: 13px;
         line-height: 16px;
@@ -154,6 +159,12 @@
     .next img{
         max-width: 14px;
         max-height: 10px;
+    }
+    .How__title{
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 40px 20px 20px;
+        width: 320px;
     }
 
 
